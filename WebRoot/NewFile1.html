@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="" method="get" name="form1">
+		请输入真是姓名：<input id="text1" type="text" size="40">
+		<br>
+		<br> <input type="button" name="button1" value="检测"
+			onclick="alertName()">
+	</form>
+</body>
+<script type="text/javascript">
+	function alertName() {
+		var str = form1.text1.value;
+		alert(str);
+	}
+</script>
+</html>
